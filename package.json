@@ -9,8 +9,8 @@
     "typescript": "^5.0.0"
   },
   "bun-create":{
-    "preinstall":"echo 'hello redmaster'",
-    "postinstall":["goodbey redmaster"],
-    "start":"bun run echo 'Hello world'"
+    "preinstall":"echo 'hello redmaster ....'",
+    "postinstall":["echo 'goodbey redmaster........'" , "echo 'this project install .......'"],
+    "start":"bun run dev"
   }
 }
