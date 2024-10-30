@@ -7,5 +7,10 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "bun-create":{
+    "preinstall":"hello redmaster",
+    "postinstall":"goodbey redmaster",
+    "start":"bun run echo 'Hello world'"
   }
 }
