@@ -10,7 +10,7 @@
   },
   "bun-create":{
     "preinstall":"echo 'hello redmaster'",
-    "postinstall":["goodbey redmaster" , echo 'the end installing....'],
+    "postinstall":["goodbey redmaster"],
     "start":"bun run echo 'Hello world'"
   }
 }
