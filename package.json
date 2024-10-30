@@ -11,6 +11,6 @@
   "bun-create":{
     "preinstall":"echo 'hello redmaster ....'",
     "postinstall":["echo 'goodbey redmaster........'" , "echo 'this project install .......'"],
-    "start":"bun run dev"
+    "start":"bun run ./index.ts"
   }
 }
